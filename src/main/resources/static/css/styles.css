@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+nav {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	margin: 0;
+}
+.nav-logo {
+	color: white;
+	margin: 0;
+}
+.nav-links {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+}
+.nav-links-link:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.nav-links-link a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav-links-link {
+	font-weight: 900;
+	padding: 8px 10px;
+}
+
+.nav-red-box {
+	background: red;
+}
+
+.landing {
+	height: 600px;
+	position: relative;
+	background-image: url("/imgs/nicolas-peyrol-6a3h6zMvBc4-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.landing-container {
+	z-index: 1;
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	clip-path: polygon(0 0, 40% 0, 30% 100%, 0 100%);
+}
+.landing-text-container {
+	width: 100%;
+	height: 600px;
+}
+.landing-text {
+	color: #ffffff;
+	z-index: 2;
+	max-width: 250px;
+}
+.hero-button {
+	z-index: 2;
+}
+.landing-community {
+	height: 600px;
+}
+.landing-community-left {
+	height: 350px;
+	width: 300px;
+	background-image: url("/imgs/william-chiesurin-EbGnBRyFAwc-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.landing-quote-block {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 6rem 0;
+}
+.landing-become-member {
+	height: 600px;
+}
+.landing-become-member-left {}
+.landing-become-member-right {
+	height: 350px;
+	width: 400px;
+	background-image: url("/imgs/kenny-gaines-brW66P_4syk-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.userdash-landing {
+	height: 600px;
+	background-image: url("/imgs/jannis-lucas-jBmNhftLcrY-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.userdash-landing-text {
+	color: white;
+}
+.userdash-event-count {
+	padding: 6rem 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+.userdash-chat-board {
+	border-left: 2px solid #000000;
+	padding-left: 2rem;
+}
+.news-landing-top-left-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.club-news {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 2rem;
+	height: fit-content;
+}
+.club-news.latest-news {
+	background-color: #008c45;
+	color: #000000;
+}
+.club-news-subtitle {
+	font-size: 16px;
+}
+.club-news-summary {
+	font-size: 12px;
+	font-weight: bold;
+}
+.club-news-right-img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.create-account-block {
+	padding: 5rem 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+.news-article-left {
+	max-height: 600px;
+	object-fit: cover;
+	
+}
+.news-article-story {
+	margin-top: 2rem;
+}
+.events-landing {
+	background-image: url("/imgs/spencer-davis-2y0xAc1SV5g-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+.events-landing-shadow {
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	clip-path: polygon(100% 63%, 30% 100%, 100% 100%);
+}
+.events-landing-text {
+	z-index: 10;
+	color: #ffffff;
+}
