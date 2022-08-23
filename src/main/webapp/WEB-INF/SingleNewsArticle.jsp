@@ -35,7 +35,7 @@
 			<div class="container">
 				<div
 					class="news-article d-flex justify-content-center align-items-center gap-4 w-100">
-					<img src="imgs/jose-pinto-2gN5V3IB2RA-unsplash.jpg" alt=""
+					<img src="imgs/brandon-atchison-_DzW3MT-iIY-unsplash.jpg" alt=""
 						class="news-article-left w-50 h-auto" />
 					<div class="news-article-left w-50">
 						<h2>SEE OUR NEWEST MODS</h2>

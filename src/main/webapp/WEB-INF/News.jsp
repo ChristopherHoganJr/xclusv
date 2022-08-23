@@ -37,11 +37,11 @@
 					<div class="news-landing-top d-flex align-items-center gap-4">
 						<div class="news-landing-top-left w-50">
 							<img class="news-landing-top-left-img w-100"
-								src="/imgs/william-chiesurin-ZVgPUWC9Mjs-unsplash.jpg" alt="" />
+								src="/imgs/paul-kansonkho-ivRiPM_kHw0-unsplash.jpg" alt="" />
 						</div>
 
 						<div
-							class="news-landing-top-right d-flex flex-column h-100 w-50 gap-4">
+							class="news-landing-top-right d-flex flex-column justify-content-between w-50 gap-4">
 							<h1>Latest News</h1>
 							<p>Stay up to date with the newest news and updates from our
 								club</p>
@@ -69,7 +69,7 @@
 								</div>
 								<div class="club-news-right w-50">
 									<img class="club-news-right-img"
-										src="imgs/viktor-theo-4OHpmh0gb30-unsplash.jpg" alt="" />
+										src="imgs/jannis-lucas-jBmNhftLcrY-unsplash.jpg" alt="" />
 								</div>
 							</div>
 						</div>
@@ -77,8 +77,6 @@
 					</div>
 					<div
 						class="news-landing-right d-flex justify-content-between align-items-center gap-4">
-
-
 						<div class="club-news d-flex gap-3">
 							<div class="club-news-left w-50">
 								<h3 class="club-news-title">NEW POST</h3>
@@ -102,7 +100,7 @@
 							</div>
 							<div class="club-news-right w-50">
 								<img class="club-news-right-img"
-									src="imgs/andreas-brun-fjDDh6iOBQA-unsplash.jpg" alt="" />
+									src="imgs/lance-asper-pELKFdRXrO4-unsplash.jpg" alt="" />
 							</div>
 						</div>
 					</div>
@@ -141,7 +139,7 @@
 						</div>
 						<div class="club-news-right w-50">
 							<img class="club-news-right-img"
-								src="imgs/alec-jones-WDsmqzxy8Ig-unsplash.jpg" alt="" />
+								src="imgs/lance-asper-Wl6OeSGyOf4-unsplash.jpg" alt="" />
 						</div>
 					</div>
 					<div class="club-news d-flex gap-3">
@@ -154,7 +152,7 @@
 						</div>
 						<div class="club-news-right w-50">
 							<img class="club-news-right-img"
-								src="imgs/andreas-brun-fjDDh6iOBQA-unsplash.jpg" alt="" />
+								src="imgs/william-chiesurin-0jEmpjrUp9o-unsplash.jpg" alt="" />
 						</div>
 					</div>
 				</div>

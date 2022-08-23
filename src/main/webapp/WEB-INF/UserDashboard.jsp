@@ -25,7 +25,7 @@
 				<li class="nav-links-link"><a href="/events">EVENTS</a></li>
 				<li class="nav-links-link"><a href="/about">ABOUT</a></li>
 				<li class="nav-links-link nav-red-box"><a href="/join">JOIN</a></li>
-				<li class="nav-links-link nav-red-box"><a href="/login">LOG
+				<li class="nav-links-link nav-red-box"><a href="/home">LOG
 						IN</a></li>
 			</ul>
 		</div>
