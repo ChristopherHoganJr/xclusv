@@ -50,8 +50,13 @@
 							<tr>
 								<td class="d-flex align-items-start me-4"><i class="fa-solid fa-clock"></i></td>
 								<td>
-									<h1 class="mb-0 mt-0">SAN FRANCISCO SHOW CASE</h1>
-									<h2 class="mb-0">September 22, 2022</h2>
+									<h2 class="mb-0">12:00-17:00</h2>
+								</td>
+							</tr>
+							<tr>
+								<td class="d-flex align-items-start me-4"><i class="fa-solid fa-clock"></i></td>
+								<td>
+									<h2 class="mb-0">123 San Francisco Drive, San Francisco, CA 20933 USA</h2>
 								</td>
 							</tr>
 						</table>
