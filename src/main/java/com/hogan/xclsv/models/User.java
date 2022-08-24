@@ -27,7 +27,7 @@ public class User {
 
 	@NotEmpty(message = "Must have a username")
 	@Size(min = 6, max = 30, message = "Username must be between 3 and 25 characters")
-	private String userName;
+	private String username;
 
 	@NotEmpty(message = "Must have an email address.")
 	@Email(message = "Must be a valid email")
@@ -40,14 +40,16 @@ public class User {
 	@Transient
 	@NotEmpty(message = "Must confirm password")
 	@Size(min = 8, max = 30, message = "Confirm password must match.")
-	private String confirmPassword;
+	private String confirm_password;
+
+	private String userType;
 
 	@Column(updatable = false)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	private Date createdAt;
+	private Date created_at;
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	private Date updatedAt;
+	private Date updated_at;
 
 	public User() {
 
@@ -61,12 +63,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getEmail() {
@@ -85,38 +87,46 @@ public class User {
 		this.password = password;
 	}
 
-	public String getConfirmPassword() {
-		return confirmPassword;
+	public String getConfirm_password() {
+		return confirm_password;
 	}
 
-	public void setConfirmPassword(String confirmPassword) {
-		this.confirmPassword = confirmPassword;
+	public void setConfirm_password(String confirm_password) {
+		this.confirm_password = confirm_password;
 	}
 
-	public Date getCreatedAt() {
-		return createdAt;
+	public String getUserType() {
+		return userType;
 	}
 
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
+	public void setUserType(String userType) {
+		this.userType = userType;
 	}
 
-	public Date getUpdatedAt() {
-		return updatedAt;
+	public Date getCreated_at() {
+		return created_at;
 	}
 
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
+	public void setCreated_at(Date created_at) {
+		this.created_at = created_at;
 	}
-	
+
+	public Date getUpdated_at() {
+		return updated_at;
+	}
+
+	public void setUpdated_at(Date updated_at) {
+		this.updated_at = updated_at;
+	}
+
 	@PrePersist
 	protected void onCreate() {
-		this.setCreatedAt(new Date());
+		this.setCreated_at(new Date());
 	}
-	
+
 	@PreUpdate
 	protected void onUpdate() {
-		this.setUpdatedAt(new Date());
+		this.setUpdated_at(new Date());
 	}
 
 }
